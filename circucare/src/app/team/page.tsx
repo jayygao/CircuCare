@@ -23,7 +23,7 @@ export default function teamPage() {
                                 <div className = 'teamNames'>
                                     {data.name}
                                 </div>
-                                <img src={data.src} alt="photos" className='teamImages'/>
+                                <a href={data.link}><img src={data.src} alt="photos" className='teamImages'/></a>
                                 <div className = 'teamData'>
                                     {data.text}
                                 </div>

@@ -25,6 +25,7 @@ html, body {
     z-index: 1;
     font-family: Tahoma, 'Arial Narrow Bold', sans-serif;
     background-color: rgba(49, 146, 191, .9);
+    background: linear-gradient(#3192BF, #9198e5);
     display: flex;
     justify-content: space-between;
     align-items: center;
