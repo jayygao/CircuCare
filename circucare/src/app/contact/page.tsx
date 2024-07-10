@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, ChangeEvent, FormEvent } from 'react';
+import { useState } from 'react';
 import Navbar from '../navbar/navbar';
 import './colors.css';
 import React from 'react';
@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
     message: ''
   });
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -20,10 +20,8 @@ const Contact: React.FC = () => {
     });
   };
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    // You can add form validation here if needed
 
     // Send form data to the API endpoint
     const response = await fetch('/api/contact', {
