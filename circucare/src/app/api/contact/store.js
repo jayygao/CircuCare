@@ -6,7 +6,7 @@ export async function POST(request) {
     return new Response(JSON.stringify({ message: 'Circucare' }), {
       status: 200,
       headers: {
-        'Content-Type': 'package/json'
+        'Content-Type': 'circucare/package/json'
       }
     });
   }

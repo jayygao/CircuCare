@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(to bottom right, #FFC857, #C11D38);
+  font-family: Tahoma, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff; /* Default text color */
+}
+
+.contact-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 100px auto; /* Add margin to account for the fixed navbar */
+  background-color: #FFC857, #C11D38; /* Dark background for the container */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #0e0d0d; /* Red color for headings */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: #070707; /* Red color for labels */
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #333; /* Dark background for inputs */
+  color: #fff; /* White text for inputs */
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #ff0000; /* Red border on focus */
+  outline: none;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #ff0000; /* Red background for button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}

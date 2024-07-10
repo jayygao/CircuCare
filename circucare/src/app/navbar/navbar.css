@@ -1,67 +1,57 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Tahoma, 'Arial Narrow Bold', sans-serif;
-}
-
 .container {
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom right, #FFC857, #C11D38);
+  width: 100%;
 }
 
 .navigation {
-    width: 100%;
-    height: 80px;
-    top: 0;
-    font-family: Tahoma, 'Arial Narrow Bold', sans-serif;
-    background-color: rgba(49, 146, 191, .9);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  font-family: Tahoma, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(49, 146, 191, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  z-index: 1000; /* Ensure navbar is always on top */
 }
 
 .title a {
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
 }
 
 .navButtons {
-    letter-spacing: 1px;
-    padding: 15px;
+  letter-spacing: 1px;
+  padding: 15px;
 }
 
 .navButtons a {
-    font-size: 20px;
-    color: white;
-    margin-left: 10px;
-    transition: all 0.5s ease-out;
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
 }
 
 .navButtons a:hover {
-    color: red;
-    transition: .5s;
+  color: red;
+  transition: 0.5s;
 }
 
 .logo img {
-    width: 50px;
-    height: auto;
+  width: 50px;
+  height: auto;
 }
 
 .title {
-    position: absolute;
-    left: 75px;
+  position: absolute;
+  left: 75px;
 }
 
 .title a {
-    font-size: 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
 }
