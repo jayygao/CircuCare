@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --livid-brown: #4F2334;
+  --flamingo: #EB643A;
+  --steel-blue: #4378AF;
+  --fountain-blue: #66A9C3;
+}
