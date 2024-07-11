@@ -20,21 +20,37 @@ html, body {
 .navigation {
     width: 100%;
     height: 75px;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1;
     font-family: Tahoma, 'Arial Narrow Bold', sans-serif;
-    background-color: rgba(49, 146, 191, .9);
-    background: linear-gradient(#3192BF, #9198e5);
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    transition: opacity .6s ease-out;
+}
+
+.navigation-bg {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    font-family: Tahoma, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    opacity: 0.9;
+    transition: opacity .6s ease-out;
 }
 
 .title a {
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 .navButtons {
@@ -44,7 +60,7 @@ html, body {
 
 .navButtons a {
     font-size: 20px;
-    color: white;
+    color: black;
     margin-left: 10px;
     transition: all 0.5s ease-out;
 }
