@@ -48,25 +48,23 @@ html, body {
     transition: opacity .6s ease-out;
 }
 
-.title a {
-    font-size: 20px;
-    color: black;
-}
-
 .navButtons {
     letter-spacing: 1px;
     padding: 15px;
 }
 
 .navButtons a {
+    padding: 10px;
     font-size: 20px;
+    border-radius: 10px;
     color: black;
     margin-left: 10px;
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .navButtons a:hover {
-    color: #FF7F7F;
+    background-color: #FF7F7F;
+    color: white;
 }
 
 .logo img {
@@ -81,4 +79,10 @@ html, body {
 
 .title a {
     font-size: 20px;
+    color: black;
+    transition: color .3s ease-out;
+}
+
+.title a:hover {
+    color: #FF7F7F
 }
