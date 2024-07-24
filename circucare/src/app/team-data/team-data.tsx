@@ -1,10 +1,6 @@
 const data = [
-    { name: "John Doe", src: "/blankphoto.webp", text: "Frontend Designer" , link: "https://www.google.com/"},
-    { name: "Jane Doe", src: "/blankphoto.webp", text: "Frontend Designer", link: "https://www.google.com/"},
-    { name: "Lebron James", src: "/blankphoto.webp", text: "Frontend Designer", link: "https://www.google.com/"},
-    { name: "Bronny James", src: "/blankphoto.webp", text: "Frontend Designer", link: "https://www.google.com/"},
-    { name: "Bryce James", src: "/blankphoto.webp", text: "Frontend Designer", link: "https://www.google.com/"},
-    { name: "Savannah James", src: "/blankphoto.webp", text: "Frontend Designer", link: "https://www.google.com/"}
+    { name: "Sai Zhou", src: "/sai.png", text: "Founder & CEO" , link: "https://www.linkedin.com/in/sai-zhou-340258183/"},
+    { name: "Grace Qin", src: "/grace.jpg", text: "CFO", link: "https://www.linkedin.com/in/qianya-qin-6163141b9/"},
 ]
 
 export default data
