@@ -35,7 +35,7 @@ export default function teamPage() {
                         }
                     </div>
                     <div className = "title-secondary">
-                        <h1> Excutive Team </h1>
+                        <h1> Executive Team </h1>
                     </div>
                     <div className = "sub-cards">
                         {

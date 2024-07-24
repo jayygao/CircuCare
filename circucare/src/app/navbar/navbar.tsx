@@ -14,6 +14,12 @@ export default function navbar() {
         }
     }
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     window.addEventListener('scroll', changeColor)
 
     return (
@@ -31,6 +37,15 @@ export default function navbar() {
                     <Link href='/' style={{textDecoration: 'none'}}>CircuCare</Link>
                 </div>
                 <div className={`navButtons ${color ? 'navButtons-bg' : ''}`}>
+                    <Link href='/team' style={{textDecoration: 'none'}}>Team</Link>
+                    <Link href='/contact' style={{textDecoration: 'none'}}>Contact Us</Link>
+                </div>
+                <div className="hamburger" onClick={toggleMenu}>
+                    <span />
+                    <span />
+                    <span />
+                </div>
+                <div className={`dropdown-menu ${isOpen ? 'open' : ''}`}>
                     <Link href='/team' style={{textDecoration: 'none'}}>Team</Link>
                     <Link href='/contact' style={{textDecoration: 'none'}}>Contact Us</Link>
                 </div>
